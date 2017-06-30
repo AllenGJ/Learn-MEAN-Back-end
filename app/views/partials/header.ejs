@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" style="background: url(/img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MEAN | <%- title %></title>
+  <link rel="stylesheet" href="/components/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container-flex">
+  <div class="col-md-12">
+    <nav class="navbar navbar-inverse col-md-offset-2 col-md-8" style="margin-top: 40px;">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li>&nbsp;&nbsp;</li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Users
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/user/create">Create User</a></li>
+              <li><a href="/user/list">List Users</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/logout">Logout &nbsp;<span class="glyphicon glyphicon-log-out"></span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>

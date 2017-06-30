@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" style="background: url(/img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title><%- title %></title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+<!-- <img src="/img/background.jpg"> -->
+<div class="container-flex">
+  <div class="well col-md-offset-4 col-md-4" style="background-color: rgba(245, 245, 245, 0.7);margin-top: 10%;">
+    <img src="/img/logos.png" alt="MEAN stack" width="100%"
+         style="display: block; margin: auto; border-radius: 10px; border: 1px solid rgba(245, 245, 245, 0.9)">
+    <div class="row">
+      <div class="text-center" style="margin: auto">
+        <h1>Learning M.E.A.N</h1>
+      </div>
+    </div>
+    <div class="col-md-12 center-block" style="margin: auto">
+      <form action="/login" method="post" class="col-md-12 center">
+        <div class="form-group">
+          <label class="control-label">Email</label>
+          <input class="form-control" type="text" name="username"/>
+        </div>
+        <div class="form-group">
+          <label class="control-label">Password</label>
+          <input class="form-control" type="password" name="password"/>
+        </div>
+        <div class="form-group">
+          <div class="checkbox">
+            <label>
+              <input class="" type="checkbox" name="rememberMe"/>
+              Remember Me
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-danger center-block">Login</button>
+      </form>
+    </div>
+  </div> <!-- Well -->
+</div> <!-- Image Div -->
+</div> <!-- Container -->
+<script src="/js/jquery-3.2.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
